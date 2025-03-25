@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#ffffff;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: right;
+}
+
+header input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+}
+
+nav {
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.gallery {
+    columns: 10;
+    column-gap: 14cap;
+    padding: 1px;
+}
+
+.gallery img {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
